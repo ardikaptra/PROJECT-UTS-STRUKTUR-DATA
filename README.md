@@ -1,1 +1,1 @@
-# PROJECT-UTS-STRUKTUR-DATA
+# Nama: I Wayan Ardika Putra Widnyana (2501010108)                                                          ⁠I Gede Aris Pratama Putra (2501010011)                                                              caca
