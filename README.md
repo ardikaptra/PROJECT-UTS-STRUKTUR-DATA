@@ -102,8 +102,10 @@ Display (menampilkan seluruh data)
 
 # 4. Kesimpulan
 
-Sistem antrian digital yang dirancang menggunakan struktur data **Queue dengan prinsip FIFO (First In First Out)** terbukti efektif dalam mengelola proses pelayanan pelanggan secara lebih teratur, adil, dan efisien. Dengan konsep ini, pelanggan yang datang terlebih dahulu akan dilayani lebih dahulu sehingga dapat meminimalisir kesalahan dalam pemanggilan nomor antrian.
+Sistem antrian digital yang dirancang menggunakan struktur data Queue dengan prinsip FIFO (First In First Out) terbukti efektif dalam mengelola proses pelayanan pelanggan secara lebih teratur, adil, dan efisien. Dengan konsep ini, pelanggan yang datang terlebih dahulu akan dilayani lebih dahulu sehingga dapat meminimalisir kesalahan dalam pemanggilan nomor antrian.
 
-Implementasi menggunakan **linked list** membuat sistem menjadi lebih fleksibel karena tidak memiliki batasan kapasitas tetap seperti array. Hal ini memungkinkan sistem untuk menangani jumlah pelanggan yang terus bertambah, terutama pada kondisi lonjakan pengunjung.
+Implementasi menggunakan linked list membuat sistem menjadi lebih fleksibel karena tidak memiliki batasan kapasitas tetap seperti array. Hal ini memungkinkan sistem untuk menangani jumlah pelanggan yang terus bertambah, terutama pada kondisi lonjakan pengunjung.
 
-Selain itu, sistem ini juga menyediakan informasi antrian secara *real-time*, sehingga pelanggan dapat mengetahui posisi mereka dalam antrian dan memperkirakan waktu tunggu. Dengan demikian, sistem ini tidak hanya meningkatkan efisiensi pelayanan, tetapi juga memberikan kenyamanan dan transparansi bagi pengguna.
+Selain itu, sistem ini juga menyediakan informasi antrian secara real-time, sehingga pelanggan dapat mengetahui posisi mereka dalam antrian dan memperkirakan waktu tunggu. Dengan demikian, sistem ini tidak hanya meningkatkan efisiensi pelayanan, tetapi juga memberikan kenyamanan dan transparansi bagi pengguna.
+
+Berdasarkan hasil implementasi, dapat disimpulkan bahwa seluruh rumusan masalah telah berhasil diselesaikan. Sistem yang dibangun juga telah berjalan sesuai dengan teori struktur data, khususnya dalam penerapan queue dan prinsip FIFO. Oleh karena itu, penggunaan queue pada sistem antrian pelayanan terbukti sangat bermanfaat dalam meningkatkan kualitas dan efisiensi pelayanan.
