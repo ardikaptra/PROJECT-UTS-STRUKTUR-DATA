@@ -48,7 +48,52 @@ Referensi:
 - Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. (2014). Data Structures and Algorithms in Java. Wiley.
 - Weiss, M. A. (2013). Data Structures and Algorithm Analysis in Java. Pearson.
 - Sedgewick, R., & Wayne, K. (2011). Algorithms. Addison-Wesley.
-# 3. Kesimpulan
+
+# 3. Desain Sistem dan Implementasi
+Desain Sistem (Pseudocode)
+
+START
+
+SET nomor = 1
+
+WHILE program berjalan: tampilkan menu: 1. Ambil Nomor Antrian 2. Panggil Antrian 3. Lihat Antrian Depan 4. Tampilkan Semua Antrian
+
+INPUT pilihan
+
+
+IF pilihan == 1:
+    enqueue(nomor)
+    tampilkan nomor
+    nomor = nomor + 1
+
+
+ELSE IF pilihan == 2:
+    dequeue()
+
+
+ELSE IF pilihan == 3:
+    peek()
+
+
+ELSE IF pilihan == 4:
+    display()
+
+END
+
+Alur Sistem (Input → Proses → Output)
+Input: Pelanggan mengambil nomor antrian melalui sistem
+Proses: Sistem menyimpan nomor ke dalam queue menggunakan operasi enqueue, serta memproses pemanggilan dengan dequeue
+Output: Nomor antrian ditampilkan dan dipanggil sesuai urutan (FIFO)
+Implementasi Program
+
+Sistem ini diimplementasikan menggunakan struktur data Queue berbasis Linked List dengan operasi minimal:
+
+Enqueue (menambah data)
+Dequeue (menghapus data)
+Peek (melihat data terdepan)
+Display (menampilkan seluruh data)
+
+# 4. Kesimpulan
 
 Sistem antrian digital yang dirancang menggunakan struktur data **Queue dengan prinsip FIFO (First In First Out)** terbukti efektif dalam mengelola proses pelayanan pelanggan secara lebih teratur, adil, dan efisien. Dengan konsep ini, pelanggan yang datang terlebih dahulu akan dilayani lebih dahulu sehingga dapat meminimalisir kesalahan dalam pemanggilan nomor antrian.
 
