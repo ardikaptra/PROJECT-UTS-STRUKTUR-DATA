@@ -51,37 +51,39 @@ Referensi:
 
 # 3. Desain Sistem dan Implementasi
 Desain Sistem (Pseudocode)
-
+```
 START
 
 SET nomor = 1
 
-WHILE program berjalan: tampilkan menu: 1. Ambil Nomor Antrian 2. Panggil Antrian 3. Lihat Antrian Depan 4. Tampilkan Semua Antrian
+WHILE program berjalan:
+    Tampilkan menu:
+        1. Ambil Nomor Antrian
+        2. Panggil Antrian
+        3. Lihat Antrian Depan
+        4. Tampilkan Semua Antrian
+        5. Keluar
+   
+    INPUT pilihan
 
-```
-INPUT pilihan
+    IF pilihan == 1:
+        enqueue(nomor)
+        tampilkan "Nomor antrian:", nomor
+        nomor = nomor + 1
 
+    ELSE IF pilihan == 2:
+        dequeue()
 
-IF pilihan == 1:
-    enqueue(nomor)
-    tampilkan nomor
-    nomor = nomor + 1
+    ELSE IF pilihan == 3:
+        peek()
 
+    ELSE IF pilihan == 4:
+        display()
 
-ELSE IF pilihan == 2:
-    dequeue()
-
-
-ELSE IF pilihan == 3:
-    peek()
-
-
-ELSE IF pilihan == 4:
-    display()
-```
-
+    ELSE IF pilihan == 5:
+        STOP
 END
-
+```
 Alur Sistem (Input → Proses → Output)
 Input: Pelanggan mengambil nomor antrian melalui sistem
 Proses: Sistem menyimpan nomor ke dalam queue menggunakan operasi enqueue, serta memproses pemanggilan dengan dequeue
