@@ -48,7 +48,7 @@ Referensi:
 - Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. (2014). Data Structures and Algorithms in Java. Wiley.
 - Weiss, M. A. (2013). Data Structures and Algorithm Analysis in Java. Pearson.
 - Sedgewick, R., & Wayne, K. (2011). Algorithms. Addison-Wesley.
-- # Kesimpulan
+- # 3. Kesimpulan
 
 Sistem antrian digital yang dirancang menggunakan struktur data **Queue dengan prinsip FIFO (First In First Out)** terbukti efektif dalam mengelola proses pelayanan pelanggan secara lebih teratur, adil, dan efisien. Dengan konsep ini, pelanggan yang datang terlebih dahulu akan dilayani lebih dahulu sehingga dapat meminimalisir kesalahan dalam pemanggilan nomor antrian.
 
