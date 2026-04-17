@@ -3,7 +3,7 @@
 # Identitas Kelompok:
 I Wayan Ardika Putra Widnyana (2501010108) (ardikaptra)
 
-⁠I Gede Aris Pratama Putra (2501010011)
+⁠I Gede Aris Pratama Putra (2501010011) (arisspratamaa092)
 
 Putu Intan Cahyanti Putri (2501010046) (intancahyanti341-hue)
 
@@ -58,6 +58,7 @@ SET nomor = 1
 
 WHILE program berjalan: tampilkan menu: 1. Ambil Nomor Antrian 2. Panggil Antrian 3. Lihat Antrian Depan 4. Tampilkan Semua Antrian
 
+```
 INPUT pilihan
 
 
@@ -77,6 +78,7 @@ ELSE IF pilihan == 3:
 
 ELSE IF pilihan == 4:
     display()
+```
 
 END
 
@@ -89,8 +91,11 @@ Implementasi Program
 Sistem ini diimplementasikan menggunakan struktur data Queue berbasis Linked List dengan operasi minimal:
 
 Enqueue (menambah data)
+
 Dequeue (menghapus data)
+
 Peek (melihat data terdepan)
+
 Display (menampilkan seluruh data)
 
 # 4. Kesimpulan
