@@ -1,5 +1,8 @@
 # Sistem Antrian Pelayanan Mie Gacoan
 
+# Link PPT
+https://canva.link/93h4u5vjbdg60rs
+
 # Identitas Kelompok:
 I Wayan Ardika Putra Widnyana (2501010108) (ardikaptra)
 
