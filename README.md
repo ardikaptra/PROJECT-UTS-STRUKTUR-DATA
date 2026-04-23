@@ -103,7 +103,11 @@ Peek (melihat data terdepan)
 
 Display (menampilkan seluruh data)
 
-# 4. Kesimpulan
+#4. flowchart 
+Flowchart tersebut menggambarkan alur logika sistem antrian yang dimulai dari inisialisasi status awal dan masuk ke dalam struktur perulangan untuk menampilkan menu interaktif kepada pengguna. Ketika pilihan dimasukkan, sistem melakukan validasi melalui percabangan kondisi: jika memilih untuk mengambil nomor, fungsi Enqueue akan dijalankan untuk menambahkan data pelanggan baru ke posisi belakang; jika memilih untuk memanggil pelanggan, fungsi Dequeue akan memproses data dari urutan terdepan sesuai prinsip FIFO; dan terdapat pula pilihan untuk memantau daftar antrian melalui fungsi Display. Seluruh proses ini akan terus berulang secara dinamis hingga pengguna memilih opsi untuk keluar, yang kemudian akan memicu terminasi program dan mengakhiri seluruh alur kerja sistem.
+
+
+# 5. Kesimpulan
 
 Sistem antrian digital yang dirancang menggunakan struktur data Queue dengan prinsip FIFO (First In First Out) terbukti efektif dalam mengelola proses pelayanan pelanggan secara lebih teratur, adil, dan efisien. Dengan konsep ini, pelanggan yang datang terlebih dahulu akan dilayani lebih dahulu sehingga dapat meminimalisir kesalahan dalam pemanggilan nomor antrian.
 
